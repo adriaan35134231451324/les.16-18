@@ -1,0 +1,60 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        header {
+            background-image: url("banner.webp");
+            background-size: cover;
+            text-align: center;
+            padding: 30px;
+            border-bottom: solid 2px #333;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            color: rgb(0, 0, 0);
+        }
+        
+        .central-section {
+            display: flex;
+            justify-content: center;
+            border: #333 solid;
+        }
+        
+        .right-section {
+            background-color: #e6bb6b; 
+            text-align: center;
+            }
+        
+        .col-4 {
+            display: inline-block;
+            text-align: left;
+            width: 45%;
+            margin: 0 auto;
+        }
+        
+        img {
+                width: 160px;
+                height: 160px;
+                float: right;
+            }
+            
+            @media (max-width: 768px) {
+            .col-4 {
+            width: 100%;
+            }
+        }
+
+
+        li {
+            list-style: none;
+            font-size: 1.2em; 
+            padding: 10px 0; 
+            text-align: center; 
+            border: #333 solid;
+          }
+
+          footer {text-align: center;}
